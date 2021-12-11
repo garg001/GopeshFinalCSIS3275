@@ -5,7 +5,7 @@ public class Customer {
     private Double cdep;
     private int nyears;
 
-    public Customer(String custname, String custno, String savtype, Double cdep, int nyears) {
+    public Customer(String custno, String custname,  Double cdep, int nyears,String savtype) {
         this.custname = custname;
         this.custno = custno;
         this.savtype = savtype;
